@@ -1,43 +1,39 @@
-# SIEM-Lab-with-Wazuh
-# Vulnerability-Management-with-Nessus
-**Objective**
+# SOC Lab with Azure & Sentinel
 
-- The objective of this project was to gain practical experience in Security Information and Event Management (SIEM) using Wazuh. By installing and configuring Wazuh along with both Windows and Linux agents, the aim was to centralize log collection and analysis, monitor security events, and generate alerts for potential security incidents. The project involved setting up the Wazuh manager, deploying agents, and configuring the system to enhance the security posture of the environment.
+## Project Overview
+In this lab, I built a cloud-based security monitoring environment using Azure and Microsoft Sentinel. The goal was to simulate a vulnerable environment, collect Windows security logs, and analyze them with Kusto Query Language (KQL) to detect suspicious activity.
+
+## Key Achievements
+- Successfully deployed a Windows 10 VM within a custom virtual network and intentionally exposed it to simulate a real-world attack surface.  
+- Configured Azure Monitor Agent (AMA) to collect Windows Security Events, enabling centralized logging in Sentinel.  
+- Created KQL queries to filter and visualize security events, including failed login attempts and privilege escalations, providing actionable insights.  
+- Developed a Sentinel workbook with an interactive attack map to monitor activity in real time.
+
+## Technical Skills Demonstrated
+- Azure resource management: resource groups, virtual networks, and VMs.  
+- Security monitoring with Sentinel and log analytics.  
+- Log collection and analysis with AMA and KQL.  
+- Simulating network vulnerabilities through firewall configuration.
+
+## Process Summary
+1. Provisioned a resource group and virtual network in Azure.  
+2. Deployed a Windows 10 VM and configured a permissive firewall to simulate vulnerability.  
+3. Disabled the VM firewall to test log collection.  
+4. Created a Log Analytics workspace and integrated Sentinel.  
+5. Imported the Windows Security Events solution from the Sentinel content hub.  
+6. Configured data collection rules with AMA.  
+7. Built Sentinel workbooks with custom KQL queries, including an interactive attack map for monitoring events.
+
+## Outcome
+This lab strengthened my ability to set up cloud-based security monitoring environments, collect and analyze logs, and visualize threats in Sentinel. It also reinforced best practices for simulating vulnerable networks and testing detection strategies.
 
 
-**Skills Learned**
-
-- Installation and configuration of Wazuh SIEM.
-- Deployment and configuration of Windows and Linux agents.
-- Centralized log collection and analysis.
-- Monitoring security events and generating alerts.
-- Implementation of security rules and policies.
+_Ref 1_:Simulating Failed Logins w/ VPN
+<img width="1918" height="527" alt="ref2" src="https://github.com/user-attachments/assets/8a03c882-3fca-4f04-a7c7-cd7e58a72e68" />
+<img width="1650" height="933" alt="ref1" src="https://github.com/user-attachments/assets/3797d588-1a8a-42e1-95b4-365311af3d29" />
 
 
-**Tools Used**
 
-- Wazuh for Security Information and Event Management.
-- Windows and Linux operating systems for agent deployment.
-- VMware for hosting virtual machines.
-
-
-**Steps**
-
-1. Installation and configuration of Wazuh.
-2. Deployment and configuration of agents.
-3. Centralized log collection
-4. Monitoring and alerts configuration
-5. Implementation of security policies
-6. Analysis and response
-
-_Ref 1_:Wazuh Dashboard
-![wazuh8p](https://github.com/larryklingaman3/SIEM-Lab-with-Wazuh/assets/157419336/0047019c-4027-4206-94af-c0f24261d356)
-![wazuhp10](https://github.com/larryklingaman3/SIEM-Lab-with-Wazuh/assets/157419336/b24ec211-647b-49ce-b456-d05798dc8fc5)
-
-_Ref 2_: Scans and Vulnerabilities
-![wazuhp6](https://github.com/larryklingaman3/SIEM-Lab-with-Wazuh/assets/157419336/a57d46b7-b1e3-4f84-b033-2e1ed7b464b9)
-![wazuhp5](https://github.com/larryklingaman3/SIEM-Lab-with-Wazuh/assets/157419336/b9a20e29-7f6e-4658-955e-efafb1d40db3)
-![wazuh9p](https://github.com/larryklingaman3/SIEM-Lab-with-Wazuh/assets/157419336/32146066-d39e-4897-a4f7-b9fb3548b834)
 
 
 
