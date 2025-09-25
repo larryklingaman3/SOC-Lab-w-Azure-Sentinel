@@ -27,17 +27,17 @@ In this lab, I built a cloud-based security monitoring environment using Azure a
 ## Outcome
 This lab strengthened my ability to set up cloud-based security monitoring environments, collect and analyze logs, and visualize threats in Sentinel. It also reinforced best practices for simulating vulnerable networks and testing detection strategies.
 
+**Ref 1: Simulating Failed Logins w/ VPN**  
+![ref2](https://github.com/user-attachments/assets/8a03c882-3fca-4f04-a7c7-cd7e58a72e68)  
+![ref1](https://github.com/user-attachments/assets/3797d588-1a8a-42e1-95b4-365311af3d29)  
 
-_Ref 1_:Simulating Failed Logins w/ VPN
-<img width="1918" height="527" alt="ref2" src="https://github.com/user-attachments/assets/8a03c882-3fca-4f04-a7c7-cd7e58a72e68" />
-<img width="1650" height="933" alt="ref1" src="https://github.com/user-attachments/assets/3797d588-1a8a-42e1-95b4-365311af3d29" />
+**Ref 2: Actual Failed Login Attempts**  
+![ref3](https://github.com/user-attachments/assets/d10bc5d9-2db4-48af-9132-c13afc7b264c)  
 
-_Ref 2_:Actual Failed Login Attempts 
-<img width="1604" height="903" alt="ref3" src="https://github.com/user-attachments/assets/d10bc5d9-2db4-48af-9132-c13afc7b264c" />
+**Ref 3: Attack Map & Log Filtering**  
+![ref4](https://github.com/user-attachments/assets/0924f552-1eef-41bd-b9ad-7487b81cae7b)  
+![ref5](https://github.com/user-attachments/assets/5d83b908-3153-4d94-a3db-6e80df35cb0f)  
 
-_Ref 2_:Attack Map & Log Filtering
-<img width="1561" height="491" alt="ref4" src="https://github.com/user-attachments/assets/0924f552-1eef-41bd-b9ad-7487b81cae7b" />
-<img width="1599" height="890" alt="ref5" src="https://github.com/user-attachments/assets/5d83b908-3153-4d94-a3db-6e80df35cb0f" />
 
 
 
